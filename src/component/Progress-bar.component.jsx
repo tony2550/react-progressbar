@@ -18,7 +18,9 @@ const ProgressBar = (props) => {
     backgroundColor: bgcolor,
     borderRadius: "inherit",
     textAlign: "right",
+    transition: "width 1s ease-in-out",
   };
+
   const labelStyles = {
     padding: 5,
     color: "white",
